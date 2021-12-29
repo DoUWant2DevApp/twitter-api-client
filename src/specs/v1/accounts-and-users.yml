@@ -321,6 +321,11 @@ subgroups:
               you see in home_timeline.
             required: false
             type: number
+          - name: tweet_mode
+            description: Valid request values are compat and extended, which give compatibility
+              mode and extended mode, respectively for Tweets that contain over 140 characters
+            required: false
+            type: boolean
         exampleResponse: |
           [ {list-object} ]
       - title: GET lists/subscribers
